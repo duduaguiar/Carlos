@@ -1,0 +1,493 @@
+/*
+Theme Name: Carlos Lula Advocacia & Consultoria
+Theme URI: http://carloslula.com.br/
+Description: Carlos Lula
+Author: Eduardo Aguiar
+Author URI: http://twitter.com/duduag
+*/
+  
+#corpo{
+margin:20px auto;
+width:960px;
+background:#fff;
+}
+  
+ 
+.caixa h2{font-family: "Open Sans"; text-transform: uppercase;
+font-size:16px;
+margin-bottom:10px;
+}
+ 
+.caixa p{
+margin-bottom:10px;
+}
+ 
+#sidebar{
+width:300px;
+float:right;
+}
+ 
+.widget{
+width:300px;
+margin-bottom:20px;
+}
+ 
+.widget h3{
+font-size:14px;
+margin-bottom:10px;
+}
+ 
+#comments{
+    width:630px;
+    float:left;
+    border-top:1px solid #bebebe;
+    }
+ 
+#comments h3{
+    font-size:14px;
+    margin:20px 0;
+    }
+ 
+ol.commentlist{
+    list-style:none;
+    }
+ 
+ol.commentlist li{
+    margin-bottom:30px;
+    }
+ 
+ol.commentlist ul{
+    margin:0px;
+    }
+ 
+ol.commentlist ul li{
+    margin:20px 20px 20px 40px;
+    }
+ 
+#respond{
+    margin:0 0 30px 0;
+    clear:both;
+    }
+ 
+#respond form label{
+    float:left;
+    clear:left;
+    width:60px;
+    text-align:right;
+    margin-right:10px;
+    }
+ 
+#respond form input{
+    float:left;
+    width:250px;
+    margin-bottom:10px;
+    }
+ 
+#respond form textarea{
+    float:left;
+    width:400px;
+    height:100px;
+    margin-bottom:10px;
+    }
+ 
+#respond form input.commentsubmit{
+    float:left;
+    margin-left:70px;
+    }
+body {background: white; text-align: justify; margin-top: 15px; padding: 0; line-height: 18px; overflow-x:hidden; height:100%; font: 11px Verdana; color: #666;}
+
+strong,b {color:#000000;}
+i,em {color:#000000;} 
+u,underline {color: #000000;border-bottom: 1px dashed #bed174;text-decoration:none;}
+s {color: #000000;cursor: help;}
+a{cursor:hand;color:#000000; text-decoration:none;}
+a:hover{color: #000000; cursor:hand;} 
+pre {text-align: justify;padding-left: 5px; line-height: 20px; background: #f7f7f7;font-family: tahoma; color: #999; overflow: scroll;margin-right: 1px; margin-bottom: 7px;}
+blockquote {border-left: 1px solid #8B8386; text-align: justify; padding: 8px; margin: 3px; line-height: 14px;font-style: italic;}
+
+ul, ol, li{list-style:none; margin:0px; padding:0px;}
+
+.titulo {color:#000000; font-family: scada; font-size:20px; line-height:25px; font-weight:normal; margin:0px; padding:0px; margin-bottom:-0px; text-align: left;;}
+
+	#header{ width:  100%; position: absolute; z-index: 999; float: left; left: 0%; background: #; top: 0%;} 
+	.linha {border-bottom: 1px solid #; margin-bottom: 5px; margin-top: 15px;} 
+	#footer{ width:  100%; height: 130px; padding: 15px; z-index: 999; float: left; background: #615146; bottom: 0%; margin-top:40px; } 
+	#espaço{ height: 200px; width: 100%; left:0px; top: 0%; }
+	
+	#pagina {width: 900px; margin-left: auto; margin-right: auto;}
+	.direita {float: right; width: 49%; text-align: right;}
+	.esquerda {float: left; width: 49%; text-align: left;}
+	.cc {padding: 1px; margin: 1px; clear: both !important;}
+	
+	.info {font-family: "Open Sans"; font-weight:  bold; text-transform: uppercase; font-size: 20px; }
+	
+	info {color: white; text-transform: uppercase; text-shadow:  1px 1px 0px #433329; font-family: "Open Sans"; font-weight: bold; }
+		
+	
+	.sss {height: 0; margin: 0; padding: 0; position: relative;	display: block;	overflow: hidden;}
+	.ssslide {width: 100%; margin: 0; padding: 0; position: absolute; top: 0; left: 0; display: none; overflow: hidden;}
+	.ssslide img {max-width: 100%; height: auto; margin: 0; padding: 0; position: relative; display: block;}
+	.sssnext, .sssprev {width: 25px; height: 100%; margin: 0; position: absolute; top: 0; background: url(SSS-master/sss/images/arr.png) no-repeat;}
+	.sssprev {left: 3%; background-position: 0 50%;}
+	.sssnext {right: 3%; background-position: -26px 50%;}
+	.sssprev:hover, .sssnext:hover {cursor: pointer;}
+	
+	#sidebar{background: transparent; padding: 7px; }
+	
+	p {
+	text-align: center;
+}
+
+.toggle,
+[id^=drop] {
+	display: none;
+}
+
+	#menu{margin-top: -20px;}
+	nav {margin:0; padding: 0; background-color: #f1f1f1;}
+	nav:after {content:"";	display:table; clear:both;}
+	nav ul {float: ; padding:0; margin:0; list-style: none; position: relative;}
+	nav ul li {margin: 0px; display:inline-block; float: ; background-color: #f1f1f1; text-align: left;}
+	nav a {display:block; padding:14px 20px; color:#433329; font-size:15px; text-decoration:none; font-family: "Open Sans"; text-transform: uppercase; font-weight:  bold; -webkit-transition: all .2s;-moz-transition: all .2s ;transition: all .2s ;}
+	nav ul li ul li:hover { background: #837973; color: white; }
+	nav a:hover {background-color: #433329; color: white;}
+	nav ul ul {display: none; position: absolute; top: 0px;}
+	nav ul li:hover > ul {display:inherit;}
+	nav ul ul li {width:170px; float:none; display:list-item; position: relative;}
+
+/* Second, Third and more Tiers	
+ * We move the 2nd and 3rd etc tier dropdowns to the left
+ * by the amount of the width of the first tier.
+*/
+nav ul ul ul li {
+	position: relative;
+	top:-60px;
+	/* has to be the same number as the "width" of "nav ul ul li" */ 
+	left:170px; 
+}
+
+	
+/* Change ' +' in order to change the Dropdown symbol */
+li > a:after { content:  ' +'; }
+li > a:only-child:after { content: ''; }
+
+
+/* Media Queries
+--------------------------------------------- */
+
+@media all and (max-width : 768px) {
+	#conteudo{width: 500px !important;}
+	.caixa{display: block !important; width: 450px !important; text-align: justify; margin-left: 20px;}
+	.caixa:hover{background: #f7f7f7}
+	.caixa1{display: block !important; width: 500px !important; margin-left: 0px !important; float: left !important;}
+	#social{margin-left: 0px !important; width: 500px !important; float: left !important; left: 0% !important;}
+	
+	#logo {
+		display: block;
+		padding: 0;
+		width: 100%;
+		text-align: center;
+		float: none;
+	}
+
+	nav {
+		margin: 0;
+	}
+
+	/* Hide the navigation menu by default */
+	/* Also hide the  */
+	.toggle + a,
+	.menu {
+		display: none;
+	}
+
+	/* Stylinf the toggle lable */
+	.toggle {
+		display: block;
+		background-color: #433329;
+		padding:14px 20px;	
+		color:#FFF;
+		font-size:17px;
+		text-decoration:none;
+		border:none;
+		font-family: "Open Sans";
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+	.toggle:hover {
+		background-color: #5c4d43;
+	}
+
+	/* Display Dropdown when clicked on Parent Lable */
+	[id^=drop]:checked + ul {
+		display: block;
+	}
+
+	/* Change menu item's width to 100% */
+	nav ul li {
+		display: block;
+		width: 100%;
+		}
+
+	nav ul ul .toggle,
+	nav ul ul a {
+		padding: 0 40px;
+	}
+
+	nav ul ul ul a {
+		padding: 0 80px;
+	}
+
+	nav a:hover,
+ 	nav ul ul ul a {
+		background-color: #837973;
+	}
+  
+	nav ul li ul li .toggle,
+	nav ul ul a,
+  nav ul ul ul a{
+		padding:14px 20px;	
+		color:#FFF;
+		font-size:17px; 
+	}
+  
+  
+	nav ul li ul li .toggle,
+	nav ul ul a {
+		background-color: #433329; 
+	}
+
+	/* Hide Dropdowns by Default */
+	nav ul ul {
+		float: none;
+		position:static;
+		color: #ffffff;
+		/* has to be the same number as the "line-height" of "nav a" */
+	}
+		
+	/* Hide menus on hover */
+	nav ul ul li:hover > ul,
+	nav ul li:hover > ul {
+		display: none;
+	}
+		
+	/* Fisrt Tier Dropdown */
+	nav ul ul li {
+		display: block;
+		width: 100%;
+	}
+
+	nav ul ul ul li {
+		position: static;
+		/* has to be the same number as the "width" of "nav ul ul li" */ 
+
+	}
+
+}
+
+@media all and (max-width : 330px) {
+
+	nav ul li {
+		display:block;
+		width: 94%;
+		
+	}
+}
+	
+	.caixa{float:left; padding: 5px; text-align: left; display: inline; width: 225px; margin-top: 30px;}
+	.caixa1{float:left; padding: 5px; text-align: left; display: inline; width: 450px; margin-top: 30px; background: #f7f7f7; margin-left: 15px; height: 225px;}
+
+	#conteudo{width: 900px; height: auto;}
+	
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+html {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	
+	overflow-y: scroll;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+body {
+	background: white;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+	display: block;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+caption,
+th,
+td {
+	font-weight: normal;
+	text-align: left;
+}
+
+fieldset {
+	min-width: inherit;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+}
+
+blockquote,
+q {
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	quotes: none;
+}
+
+a:focus {
+	outline: 2px solid #c1c1c1;
+	outline: 2px solid rgba(51, 51, 51, 0.3);
+}
+
+a:hover,
+a:active {
+	outline: 0;
+}
+
+a img {
+	border: 0;
+}
+
+	#sidebar{
+width:260px;
+float:right;
+}
+	#ttamanho{}
+	.tatu{margin-bottom: 10px;}
+	.tamanho{width: 400px; height: auto; display: block; margin-top: 5px;}
+	.mmenu a{display:inline-block; text-transform: uppercase; font-family: scada; color: white; font-size: 13px; margin-bottom: 05px; }
+	.mmenu a:hover{color: #30190e;}
+	.cl{ margin-top: 10px;}
+	
+	#social{margin-top: 15px;
+    height: auto; 
+	margin-left: 300px;
+		pading: 15px;}
+	
+	#parceiros { margin-top: 15px;
+    height: auto; 
+	background: #f7f7f7;
+	width: 100%;
+	left: 0%;
+		pading: 15px;
+}
+	.amigos{ border-radius: 6px; display: inline-block; margin: 8px; }
+	.cle{clear: both !important;}
+	.inf{ font-family: open sans; text-transform: uppercase; text-shadow: 1px 1px 0px white;font-size: 16px; font-weight: bold;}
+	
+	.sss {
+	height: 0;
+	margin: 0; 
+	padding: 0;
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+.ssslide {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	overflow: hidden;
+}
+
+.ssslide img {
+	max-width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	display: block;
+}
+
+.sssnext, .sssprev {
+	width: 25px;
+	height: 100%;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	background: url('images/arr.png') no-repeat;
+}
+
+.sssprev {
+	left: 3%;
+	background-position: 0 50%;
+}
+
+.sssnext {
+	right: 3%;
+	background-position: -26px 50%;
+}
+
+.sssprev:hover, .sssnext:hover {
+	cursor: pointer;
+}
+	
+	#ss{ width: 100% !important; float: left !important; height: 100% !important;}
+	
+.navegacao{
+    width:630px;
+    float:left;
+    }
+ 
+.recentes{
+    float:left;
+    }
+ 
+.anteriores{
+    float:right;
+    }
