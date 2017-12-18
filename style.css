@@ -177,8 +177,8 @@ li > a:only-child:after { content: ''; }
 
 @media all and (max-width : 768px) {
 	#conteudo{width: 500px !important;}
-	.caixa{display: block !important; width: 450px !important; text-align: justify; margin-left: 20px;}
-	.caixa:hover{background: #f7f7f7}
+	.caixax{display: block !important; width: 450px !important; text-align: justify; margin-left: 20px;}
+	.caixax:hover{background: #f7f7f7}
 	.caixa1{display: block !important; width: 500px !important; margin-left: 0px !important; float: left !important;}
 	#social{margin-left: 0px !important; width: 500px !important; float: left !important; left: 0% !important;}
 	
@@ -295,7 +295,7 @@ li > a:only-child:after { content: ''; }
 	}
 }
 	
-	.caixa{float:left; padding: 5px; text-align: left; display: inline; width: 225px; margin-top: 30px;}
+	.caixax{float:left; padding: 5px; text-align: left; display: inline; width: 225px; margin-top: 30px; background: #f7f7f7;}
 	.caixa1{float:left; padding: 5px; text-align: left; display: inline; width: 450px; margin-top: 30px; background: #f7f7f7; margin-left: 15px; height: 225px;}
 
 	#conteudo{width: 900px; height: auto;}
